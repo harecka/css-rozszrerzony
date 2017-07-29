@@ -1,0 +1,93 @@
+a {
+    text-decoration: none;
+}
+a:link{
+    color:goldenrod;
+}
+a:visited{
+    color:blue;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color:aqua;
+}
+a: focus{
+    color:chocolate;
+}
+#p1 {
+    color:blue;
+}
+
+#p1:target{
+    color:lawngreen;
+}
+p:lang (pl)
+{font-style:italic;
+color: darkcyan;
+}
+p:lang (es)
+{font-style:italic;
+    color: deeppink;}
+
+p:lang (de)}
+{font-style:italic;
+    color: yellow;}
+
+div.klient:first-child {
+    color:darkturquoise;
+}
+
+div.klient:last-child {
+    color:skyblue;
+}
+
+
+div.klient:only-child{
+        color:red;}
+
+/*brak odnosnika w css*/
+/* <div class="klient"></div>*/
+div.klient:empty
+{color:yellow;
+background-color: :black;
+height: 100px;
+width: 100px;
+}
+
+
+.klient:nth-child(even){
+    background: beige;
+}
+    
+.klient:nth-child(odd){
+        background-color: lightcoral;
+    }
+
+.klient:nth-child(5n){
+    background-color: red;
+    
+}
+
+.klient:nth-child(5n+4){
+    background-color:aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
