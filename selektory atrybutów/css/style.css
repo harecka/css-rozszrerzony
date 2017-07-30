@@ -1,0 +1,18 @@
+.klient:nth-child(even)
+{background-color: chartreuse}
+
+div[suma]
+{background-color: coral;}
+
+div[suma="1500"]
+{background-color: aqua;}
+
+div[biznesowy~="tak"]{
+    color:fuchsia;
+}
+div[biznesowy*="moze"]{
+    color:yellow;
+}
+div[suma$="60"]{
+    color:blue;
+}
