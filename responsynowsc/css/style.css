@@ -20,9 +20,13 @@ body {
     }
 }
 /*
-na okrno urządzenia
+na okno urządzenia
 @media (max-device-width: 786px) {
     .box {
         width: 100%;
         border:10px solid blue;
     }*/
+@media all and (min-width: 786px) and (max-width: 850px) {
+    .box {width: 50%;
+    }
+}
